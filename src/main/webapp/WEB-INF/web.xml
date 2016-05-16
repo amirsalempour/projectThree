@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+
+<servlet>
+    <servlet-name>deleteRealCustomer</servlet-name>
+    <servlet-class>UI.DeleteRealCustomerServlet</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>searchRealCustomerServlet</servlet-name>
+    <servlet-class>UI.SearchRealCustomerServlet</servlet-class>
+</servlet>
+    <servlet>
+
+        <servlet-name> InsertRealCustomerServlet</servlet-name>
+        <servlet-class>UI.InsertRealCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>EditRealCustomerServlet</servlet-name>
+        <servlet-class>UI.EditRealCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditRealCustomer</servlet-name>
+        <servlet-class>UI.EditRealCustomer</servlet-class>
+    </servlet>
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>deleteRealCustomer</servlet-name>
+        <url-pattern>/RealCustomerDelete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>searchRealCustomerServlet</servlet-name>
+        <url-pattern>/searchRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>InsertRealCustomerServlet</servlet-name>
+        <url-pattern>/InsertRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditRealCustomerServlet</servlet-name>
+        <url-pattern>/editRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditRealCustomer</servlet-name>
+        <url-pattern>/EditRealCustomer</url-pattern>
+    </servlet-mapping>
+
+</web-app>

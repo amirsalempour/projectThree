@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.servlet.http.HttpServlet'>
+        <annotation name='java.lang.annotation.Deprecated'/>
+    </item>
+</root>
